@@ -1,0 +1,86 @@
+# Ultimate Quiz Challenge
+
+A command-line quiz game built using Python that tests the player's general knowledge through randomly shuffled questions. The game offers two modes: a classic quiz where all questions are answered, and an extreme mode where the game ends after the first incorrect answer.
+
+## Features
+
+* Randomized question order for every game
+* Classic Mode with 20 questions and a final score
+* Extreme Mode where one incorrect answer ends the game
+* Instant feedback after each answer
+* Performance message based on the player's score
+* Option to play multiple rounds without restarting the program
+* Input validation for game mode selection and replay option
+
+## Concepts Used
+
+* Variables
+* Functions
+* Lists
+* Dictionaries
+* Conditional statements (`if`, `elif`, `else`)
+* `for` and `while` loops
+* `break` statement
+* User input handling
+* String methods (`lower()`, `strip()`)
+* `random.shuffle()`
+
+## How to Run
+
+1. Ensure Python 3 is installed.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run the program using:
+
+```bash
+python quiz.py
+```
+
+If your Python file has a different name, replace `quiz.py` with the correct filename.
+
+## Game Modes
+
+### Classic Mode
+
+* Answer all 20 questions.
+* Receive your final score at the end of the quiz.
+* View a performance message based on your score.
+
+### Extreme Mode
+
+* The quiz ends immediately after the first incorrect answer.
+* The final result displays how many questions were answered correctly before the game ended.
+
+## Sample Output
+
+```text
+==================================================
+WELCOME TO THE ULTIMATE QUIZ CHALLENGE!
+==================================================
+Think you're a genius? Let's find out
+
+Choose your game mode:
+1. Classic
+2. Extreme
+
+What is the capital of Japan?
+
+Answer: tokyo
+
+Correct!
+```
+
+## Future Enhancements
+
+* Multiple-choice questions
+* Difficulty levels
+* Timer for each question
+* High score tracking
+* Save scores to a file
+* Larger question database
+
+## Author
+
+**Shivani Dev Bahadur**
+
+Mini Project #3 developed while learning Python fundamentals.
